@@ -13,18 +13,18 @@ Read this comic http://theoatmeal.com/comics/design_hell
 git clone https://github.com/abramhindle/CMPUT404-assignment-css-hell.git
 
 Main Changes to Gutenberg docs:
-Nautical Theme.
-Added some fonts.
-Changed colors, border of headings.
-Aligned everything to the middle.
-Colored a links and paragraphs.
-Justified paragraph text.
-Added blue filter to images.
+Nautical Theme.  
+Added some fonts.  
+Changed colors, border of headings.  
+Aligned everything to the middle.  
+Colored a links and paragraphs.  
+Justified paragraph text.  
+Added blue filter to images.  
 
 Sources Used:  
-https://css-tricks.com/snippets/css/a-guide-to-flexbox/
-http://fontawesome.io/
-https://fonts.google.com/
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/ .   
+http://fontawesome.io/ .  
+https://fonts.google.com/ .   
 
 
 License/Copyright
