@@ -1,0 +1,176 @@
+
+* {
+    -webkit-box-shadow: inset -7px 28px 29px -16px rgba(0,0,0,0.32);
+    -moz-box-shadow: inset -7px 28px 29px -16px rgba(0,0,0,0.32);
+    box-shadow: inset -7px 28px 29px -16px rgba(0,0,0,0.32);
+    transition:1s;
+}
+
+body *:hover{
+	transform:rotateY(180deg);
+	-webkit-transform:rotateY(180deg);
+}
+
+html {
+    font-family: 'Lato', serif;
+}
+
+body {
+    margin: 0 0 0 0; 
+}
+
+img {
+    -webkit-filter: invert(1);
+    filter: invert(1);
+}
+
+h1 {
+    font-size: 10px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+h3 {
+    font-size: 40px;
+}
+
+
+.navbar {
+    background-color: yellow;
+}
+
+.navbar a {
+    height: 45px;
+    line-height: 45px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    color: black;
+}
+
+.navbar a:hover {
+    background-color: #EEE;
+}
+
+.navbar a:link {
+    text-decoration: none;
+}
+
+.navbar a:visited {
+    text-decoration: none;
+}
+
+header {
+   
+    padding-top: 10px;
+    margin: 0 0 0 0;
+    height: 30em;
+    background-image: url("./img/cash.gif");
+    /* http://www.cssmatic.com/box-shadow */
+    -webkit-box-shadow: inset -7px 28px 29px -16px rgba(0,0,0,0.32);
+    -moz-box-shadow: inset -7px 28px 29px -16px rgba(0,0,0,0.32);
+    box-shadow: inset -7px 28px 29px -16px rgba(0,0,0,0.32);
+}
+
+header .title {
+    text-align: center;
+    font-family: 'Caveat Brush', cursive;
+    color: white;
+}
+
+header .title h1 {
+     opacity: 0.7;
+    font-size: 80px;
+}
+header .title p {
+     opacity: 0.7;
+    font-size: 30px;
+}
+
+canvas {
+    padding-top: 10px;    
+    position: absolute;
+    width: 100%;
+    height: 40em;
+}
+
+main {
+    justify-content: center;
+    display:flex;
+    flex-flow: row-wrap;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main > * {
+    padding: 10px;
+    flex: 1 100%;
+    margin: 10px;
+    border: 10px lightgrey solid;
+    border-radius: 10px;
+    background-color: white;
+    padding: 17px;
+}
+
+section {
+    max-width: 25em;
+    width: 460px;    
+}
+.intro {  
+  order: 1;
+}
+
+aside img {
+    width: 460px;
+    margin-left: -30px;
+    margin-top: -20px;
+}
+
+.history {
+    order: 2;
+}
+
+.history .work-time {
+    margin-top: 10px;
+    margin-left: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.history .work-time img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+}
+
+.history .work-time p {
+    padding-top: 10px;
+    margin-left: 30px;
+}
+
+.contact div {
+    margin-top: 10px;
+}
+
+.contact div a{
+    margin-left: 10px;
+}
+
+.contact div i {
+    margin-left: 10px;
+}
+
+
+aside {
+    flex: 1 auto;
+    order: 3;
+    max-width: 25em;
+    overflow: hidden;
+    width: 25em;
+}
+
+ul {
+    list-style-image: square inside url('./img/me.jpg');
+}

@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Alice|Pacifico');
+
+html {
+    font-family: 'Alice', serif;
+    color: #2f2f2f;
+    background-color: #f9f7f1;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 2em;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-family: 'Pacifico', cursive;
+    color: #B24340;
+    border: 3px #255A87 dashed;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+a {
+    color: #AEC6CA;
+    font-family: 'Alice', serif;
+}
+
+
+p, table {
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: justify;
+}
+
+pre {
+    margin-left: 20%;
+}
+
+img {
+    display:block;
+    -webkit-filter: sepia(1) hue-rotate(140deg);
+    filter: sepia(1) hue-rotate(140deg);
+    margin: auto;
+    border: 10px #255A87 dashed;
+}
+
+.caption, .largeimg, #half-title {
+    text-align: center;
+    color: #255A87;
+}

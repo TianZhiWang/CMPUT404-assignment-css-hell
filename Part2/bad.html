@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css"  href="bad.css"></link>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tian Zhi Wang</title>
+</head>
+<body onload="init()">
+    <div class="navbar">
+        <a href="">Home</a>
+        <a href="">Blog</a>
+        <a href="">Projects</a>
+        <a href="">Contact Me</a>
+    </div>
+    <canvas id="header-canvas"></canvas>
+    <header>
+        <div class="title">
+                <h1>Tian Zhi Wang</h1>
+            <p> software developer • cs student</p>
+        </div>
+    </header>
+    <main>
+        <section>
+            <div class="intro">
+                <h2>Howdy</h2>
+                <p>I'm Tian Zhi Wang, a software developer from Edmonton, Alberta. I make websites, like this one for example.</p>
+                <p>I love hip-hop, craft beer, dashboards, and continus-delivery. I am passionate about developer tooling and productivity. Tell me what is bothering developers at your company.</p>
+            </div>
+            <div class="history">
+                <h2>A few places I've worked</h2>
+                <div class="work-time">
+                    <img src="./img/uofa.png" alt="Tian Zhi Wang"> 
+                    <p>University of Alberta</p>       
+                </div>
+                <div class="work-time">
+                    <img src="./img/intuit.png" alt="Tian Zhi Wang">
+                    <p>Intuit</p>
+                </div>
+            </div>
+            <div class="contact">
+                <h2>Contact Me</h2>
+                <p>I'm on the web!</p>
+                <div><i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:tianzhi@ualberta.ca">Mail</a></div>
+                <div><i class="fa fa-github-alt" aria-hidden="true"></i><a href="https://github.com/TianZhiWang/">Github</a></div>
+                <div><i class="fa fa-twitter" aria-hidden="true"></i><a href="https://twitter.com/TnZhi">Twitter</a></div>
+                <div><i class="fa fa-linkedin-square" aria-hidden="true"></i><a href="">LinkedIn</a></div>
+            </div>
+        </section>
+        <aside>
+            <img src="./img/me.jpg" alt="Tian Zhi Wang">
+            <h2>Programming Languages</h2>
+            <ul>
+                <li>JavaScript</li>
+                <li>Python</li>
+                <li>C++</li>
+                <li>SQL</li>
+            </ul>
+            <h2>Tools</h2>
+            <ul>
+                <li>Docker</li>
+                <li>Jenkins</li>
+                <li>Splunk</li>                
+                <li>Git</li>
+            </ul>
+        </aside>
+    </main>
+     <script type="application/x-javascript">
+        function init() {
+            var canvas = document.getElementById("header-canvas");
+            var ctx = canvas.getContext("2d");
+        }
+    </script>
+</body>
+</html>
